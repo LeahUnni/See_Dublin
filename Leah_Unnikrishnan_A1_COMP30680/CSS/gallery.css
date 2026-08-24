@@ -1,0 +1,50 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:  linear-gradient(to bottom, #ffffff, #354148);
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 550;
+    padding: 5px;
+    margin: 0px auto;
+    position: relative;
+}
+
+#s8{
+    position: absolute;
+    top: 85px;
+    left: 250px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    padding: 10px;
+    transform: rotate(-5deg); /* tilts image 10 degrees clockwise */
+}
+
+
+
+.gallery{
+    display: grid;                          /* turns the container into grid */
+    grid-template-columns: repeat(3, 1fr);  /* 3 list in a row with 1 share of the total space */
+    gap: 15px;                             /* space between images */
+    padding: 20px;                         /* adds space inside the container */
+    max-width: 100%;                        /* grid cannot exceed the width of the page */ 
+    box-sizing: border-box;                  /* properties such as width, padding and border gets included in the box size to optimize it and not spill over*/       
+}
+
+.images{
+    position: relative;
+}
+.images img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.326);
+    border-radius: 50px;
+    box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.921);
+}
+
+

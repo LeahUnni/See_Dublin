@@ -1,0 +1,195 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:  linear-gradient(to bottom, #ffffff, #3541485a);
+   
+}
+
+#title {
+    position: relative; /* allows #s2 to position itself inside the title */
+    text-align: center;
+    margin: 40px auto;
+}
+#title h1{
+    font-weight:550;
+    display: inline-block;
+    position: relative;
+    
+}
+
+#s2{
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    transform: rotate(10deg); /* tilts image 10 degrees clockwise */
+}
+
+#s3{
+    position: absolute;
+    top: 580px;
+    right: 150px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    transform: rotate(10deg); /* tilts image 10 degrees clockwise */
+}
+
+#s4{
+    position: absolute;
+    top: 980px;
+    left: 10px;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+    transform: rotate(10deg); /* tilts image 10 degrees clockwise */
+}
+
+#s5{
+    position: absolute;
+    top: 2400px;
+    right: 50px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    transform: rotate(10deg); /* tilts image 10 degrees clockwise */
+}
+#s6{
+    position: absolute;
+    top: 1690px;
+    left: 200px;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    transform: rotate(10deg); /* tilts image 10 degrees clockwise */
+}
+
+#s9{
+    position: absolute;
+    top: 2150px;
+    left: 100px;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+    transform: rotate(-30deg); /* tilts image 10 degrees clockwise */
+}
+
+#s10{
+    position: absolute;
+    top: 2800px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    padding: 10px;
+    transform: rotate(30deg); /* tilts image 10 degrees clockwise */
+}
+#s11{
+    position: absolute;
+    top: 1490px;
+    right: 60px;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    transform: rotate(10deg); /* tilts image 10 degrees clockwise */
+}
+
+.discover{
+    display: inline-block;        
+    padding: 10px; 
+    margin: 20px;          
+    text-align: center; 
+    align-content: center;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.597);
+    background-blend-mode:darken;
+    color: aliceblue;
+    
+}
+
+.discover h2{
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.discover p{
+    font-size:20px;
+}
+
+
+#liffey{
+    border: 2px solid rgba(173, 163, 163, 0.304);
+    box-shadow:3px 2px 8px rgba(0, 0, 0, 0.558); 
+    display: block;
+    width: 1000px;
+    height: 300px;
+    margin: 40px auto;
+    background-image: url(/Images/liffey.jpg);
+    border-radius: 30px;
+    
+}
+
+#bar{
+border: 2px solid rgba(173, 163, 163, 0.304);
+    box-shadow:3px 2px 8px rgba(0, 0, 0, 0.558); 
+    display: block;
+    width: 700px;
+    height: 400px;
+    margin: 10px auto;
+background-image: url(/Images/bar.jpeg);
+border-radius: 50px;
+}
+
+#castle{
+    border: 2px solid rgba(173, 163, 163, 0.304);
+    box-shadow:3px 2px 8px rgba(0, 0, 0, 0.558); 
+    display: block;
+    width: 900px;
+    height: 500px;
+    margin: 30px auto;
+    background-image: url(/Images/castle.jpg);
+    border-radius: 60px;
+}
+
+#grafton{
+    border: 2px solid rgba(173, 163, 163, 0.304);
+    box-shadow:3px 2px 8px rgba(0, 0, 0, 0.558); 
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    background-image: url(/Images/grafton.avif);
+    border-radius: 10px;
+}
+
+#street{
+    border: 2px solid rgba(173, 163, 163, 0.304);
+    box-shadow:3px 2px 8px rgba(0, 0, 0, 0.558); 
+    display: block;
+    width: 800px;
+    height: 500px;
+    margin: 40px auto;
+    background-image: url(/Images/street.jpg);
+    border-radius: 80px;
+}
+
+#green{
+    border: 2px solid rgba(173, 163, 163, 0.304);
+    box-shadow:3px 2px 8px rgba(0, 0, 0, 0.558); 
+    display: block;
+    width: 1000px;
+    height: 500px;
+    margin: 10px auto;
+    background-image: url(/Images/green.jpg);
+    border-radius: 40px;
+}
+

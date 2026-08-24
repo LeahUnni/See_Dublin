@@ -1,0 +1,35 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header{
+    margin: auto;  /* to center the element within the parent container */
+    width: 80%; /*take 80% of the space */
+    padding: 0px; /* spacing outside the container */
+   
+}
+
+#flag{
+    display: inline-block;
+    width: 170px;
+    height: 150px;
+    padding: 0px;
+    vertical-align: middle; /* aligns image with the inline block to the middle */
+    margin: 0px 120px 0px -70px;
+}
+
+#header h3{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 23px;
+    padding: 20px; 
+}
+
+#header a{
+    text-decoration: none;
+    color: black;
+}
+
+#header a:hover{
+    color:rgb(0, 190, 200);
+}
